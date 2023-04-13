@@ -177,7 +177,7 @@ def head_print(*args, **kwargs):
     if jax.host_id() == 0:
         print(*args, **kwargs)
 
-# Note Lines below 184 cause crash on TPU
+
 if __name__ == "__main__":
    sch = gpt3_schedule(1_000, 20_000, 1e-4, 1e-5)
 
