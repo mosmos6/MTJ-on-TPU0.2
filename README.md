@@ -1,6 +1,7 @@
 # MTJ-on-TPU0.2
 
 This is a modified mesh-transformer-jax adapted to JAX 0.3.25 so you can infer on colab with TPU_driver0.2.
+You can continue to use the same (slim) weights as before.
 
 Important notes: 
 
