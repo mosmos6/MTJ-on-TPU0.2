@@ -20,3 +20,6 @@ Important notes:
 I'm planning to cover it next month. Until then, possibly you must add further modifications to xmap by yourself or downgrade to jax 0.2.18 or 0.2.20.
 
 3) You can also infer with GPT-J by device_serve.py on TPU VM, but you can't use the original file. If anyone wants it, please post a request from issue.
+
+Update on 4/28/2023
+Due to the python upgrade of colab (3.9 -> 3.10), requirements.txt and util.py were modified.
